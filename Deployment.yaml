@@ -16,7 +16,7 @@ spec:
       - name: laravel-app
         image: absolutezero24/belajar-laravel-dasar:latest
         ports:
-        - containerPort: 9000
+        - containerPort: 80
 
 ---
 
@@ -30,6 +30,5 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 9000
+      targetPort: 80
   type: LoadBalancer
-  #test
