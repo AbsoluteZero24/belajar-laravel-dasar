@@ -32,3 +32,4 @@ spec:
       port: 80
       targetPort: 9000
   type: LoadBalancer
+  #test
