@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: laravel-app
-        image: laravel-app:latest
+        image: absolutezero24/belajar-laravel-dasar:latest
         ports:
         - containerPort: 9000
 
